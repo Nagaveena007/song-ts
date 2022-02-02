@@ -35,5 +35,7 @@ export default function Details() {
         </Col>
       </Row>
     </Container>
-  ) : null;
+  ) : (
+    <Row>No such music album</Row>
+  );
 }
