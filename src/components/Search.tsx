@@ -13,10 +13,6 @@ const FormComponent = () => {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
 
-  const handleInput = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
-  };
-
   const fetchSongs = async (e: FormEvent) => {
     e.preventDefault();
     try {
